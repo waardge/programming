@@ -1,0 +1,66 @@
+/* File name: style.css
+      Author: Daniel Zhuo
+   Student #: 301330354
+        Date: Oct 5, 2023
+*/
+
+/* custom styling to specific elements */
+
+.resume {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* About page */
+.content{
+    display: flex; }
+
+.image{
+    flex: 1; 
+    padding-left: 10px;
+    padding-right: 20px; }
+
+.text{
+    flex: 4; 
+    padding-right: 30px; 
+    text-align: left; }
+
+.hidden {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+    }
+
+/* Form in Contact page */
+.label1 {
+    line-height: 50px;
+    width: 150px; 
+    display: inline-block; 
+    text-align: left; 
+    margin-right: 10px; }
+
+.button1, .label1 {
+    padding-left: 33px; }
+
+.legend1 {
+    padding-left: 10px;
+    padding-bottom: 4px; }
+
+.message1 {
+    width: 450px;
+    margin-left: 33px;
+    padding: 10px; }
+
+legend {
+    background-color: #869DC7;
+    color: white;
+    padding: 3px 10px; }
+
+fieldset {
+    border-radius: 8px;
+    box-shadow: 0 0 10px #666; }
+
+/* Contact in Contact page */
+.custom-contact {
+    padding-left: 30px; }
+    

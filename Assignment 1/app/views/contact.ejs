@@ -1,0 +1,64 @@
+<!-- File name: contact.ejs
+      Author: Daniel Zhuo
+   Student #: 301330354
+        Date: Oct 5, 2023
+-->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+<div class="jumbotron">
+    <h1 class="display-4">My Contact</h1>
+    <div class="contact custom-contact">
+        <p>Daniel Zhuo</p>
+        <p>Add:   Oakville, Ontario</p>
+        <p>Mob:   289-888-1361</p>
+        <p>Email: waardge_2002@hotmail.com</p><br>
+    </div>
+
+    <div class="contact-form">
+    <!-- The form includes the fieldset and the buttons -->
+    <!-- The fieldset -->
+    <form method="post" action="/submit-form">
+        <fieldset class="fieldset1">
+        <legend class="legend1">Leave a message</legend>
+            <label class="contact label1" for="name" size="20">Your Name: 
+                </label>
+            <input type="text" id="name" name="name" size="30"    
+                required="required" tabindex="1"><br>
+
+            <label class="label1" for="cellphone">Your Phone: </label>
+            <input type="tel" id="cellphone" name="cellphone" size="30" 
+                placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9] 
+                        {4}" tabindex="2"><br>
+
+            <label class="label1" for="email">Your Email: </label>
+            <input type="email" id="email" name="email" size="30" tabindex="3">
+            <br>
+            
+            <label class="label1" for="message">Message:</label><br>
+            <textarea class="contact message1" name="message1" rows="4" 
+                cols="40" tabindex="4"></textarea><br><br>
+            
+    <!-- The clear and submit buttons -->
+            <label class="button1" for="reset"></label>
+            <input type="reset" id="reset" name="reset" value="Clear" 
+                tabindex="5">
+            <label for="submit"></label>
+            <input type="submit" id="reset" name="reset" 
+                value="Submit" tabindex="6">
+            <br><br>
+    </form>
+    </div>
+    
+</div>
+</main>
+    
+    <!--bottom nav-->
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   

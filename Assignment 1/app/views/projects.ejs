@@ -1,0 +1,58 @@
+<!-- File name: projects.ejs
+      Author: Daniel Zhuo
+   Student #: 301330354
+        Date: Oct 5, 2023
+-->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">My Projects</h1>
+    <h3>Here is the list of projects I participated in as Procurement Manager</h3>
+
+    <!-- Project 1 -->
+    <p><b>Project Name: EPCC for Crude Oil Park (Phase 1.1)</b></p>
+    <div id="content1" class="hidden content1">
+        <p>Project Location: Ras Markaz, Sultanate of Oman</p>
+        <p>Client: OTTCO (Oman Tank Terminal Company LLC)</p>
+        <img src="/img/RM.jpg" alt="Ras Markaz" width="500">
+        <p>Long Lead Items: Offshore Line Pipes, SPM, Pumps, MV & LV Switchgears, Package Substations, LV Distribution Boards, IPCS, UPS, Metering System, CCS, MOV & ESD Valves, Water Treatment Packages, Telecom System, Seawater Intake System, Genset</p>
+        <p>The project is being commissioned and will be put to production next yaer.</p>
+    </div>
+    <a href="#" class="toggleLink" data-target="content1">More Details</a>
+
+    <!-- Project 2 -->
+    <br><p><b>Project Name: EPCC for Water Management System (Phase 1)</b></p>
+    <div id="content2" class="hidden">
+      <p>Project Location: Garraf Oil Field, Republic of Iraq</p>
+      <p>Client: PETRONAS</p>
+      <img src="/img/WQII.jpg" alt="Ras Markaz" width="500">
+      <p>Long Lead Items: Pumps, Nitrogen Generation Package, De-Oxygenation Pump & Deaerator, Filtration Package, Dewatering Skid, Transformers, Switchgear & IMCS, UPS, Genset, ICSS, Valves, Clariflocculator</p>
+      <p>The project was completed and put to produciton in 2018.</p>
+    </div>
+    <a href="#" class="toggleLink" data-target="content2">More Details</a>
+
+    <!-- Project 3 -->
+    <br><p><b>Project Name: EPC for Well Pads and Oil Gathering System</b></p>
+    <div id="content3" class="hidden">
+      <p>Project Location: West Quarna II Oil Field, Republic of Iraq</p>
+      <p>Client: LUKOIL</p>
+      <img src="/img/Halfaya.jpg" alt="Ras Markaz" width="500">
+      <p>Long Lead Items: Valves, UPS, Transformers, HV/MV/LV Switchgears, ICSS with SIH, Flowmeters, Chemical Injection Skids, Wellhead Control System, Telecom System, E-houses, Instrument Air Package</p>
+      <p>The project was completed and put to produciton in 2017.</p>
+    </div>
+    <a href="#" class="toggleLink" data-target="content3">More Details</a>
+
+  </div>
+</main>
+
+  <!--bottom nav-->
+   
+   
+  <!--script section-->
+  <%- include ('partials/bottom_nav.ejs') %>
+  <%- include ('partials/footer.ejs') %>
+   

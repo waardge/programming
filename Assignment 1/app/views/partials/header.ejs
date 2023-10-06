@@ -1,0 +1,81 @@
+<!-- File name: header.ejs
+      Author: Daniel Zhuo
+   Student #: 301330354
+        Date: Oct 5, 2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.jpg">
+    <link rel="stylesheet" href="/Content/style.css"/>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css"/>
+    <script src="/Scripts/toggle-details.js" defer></script>
+
+    <!-- css style applied to the ejs templates -->
+    <style>
+        h1 {
+            text-align: center; /* Center the text */ 
+            padding-bottom: 10px; }
+
+        h3, h4 {
+            padding-bottom: 10px;
+            text-decoration: underline; }
+
+        .container {
+            box-sizing: border-box; 
+            line-height: 1.5;
+            font-size: 20px;
+            color: #00005D;
+            padding-top: 70px;
+            padding-left: 30px;
+            padding-right: 30px; 
+            padding-bottom: 70px;
+            position: relative;
+            background-image: url(/img/background1.jpg); 
+            background-size: cover;
+            opacity: 1;
+        }
+        
+        ul.navbar-nav {
+            list-style: none; /* Remove the bullet */
+            display: inline; /* Display the list items inline */
+            float:right;
+            font-size: 20px; }
+        
+        ul.navbar-nav li {
+            display: inline-block; /* Make the list items display inline */
+        }
+
+        a:link, a:visited, a:hover, a:active {
+             text-decoration: none; } /* Remove the underline */
+        
+        html, body {
+            height: 100%;
+            margin: 0; }
+        
+        body {
+            background-color:#a3c3c6; 
+            display: flex;
+            flex-direction: column; }
+        
+        main {
+            flex: 1; }
+
+        footer {
+            color: #ffffff;
+            text-align: center; }
+
+        footer .navbar-text {
+            margin: 0; 
+            font-size: 20px; 
+            padding: 10px;
+            text-align: center; }
+    </style>
+</head>
+<body>
