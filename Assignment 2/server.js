@@ -19,7 +19,7 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true 
 
 // Define a simple route
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to DressStore application!' });
+  res.json({ message: 'Welcome to DressStore application! Bienvenue!' });
 });
 
 // Start the Express server
